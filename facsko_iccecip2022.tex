@@ -26,7 +26,7 @@
 
 \author[2,4]{\fnm{Munkhjargal} \sur{Lkhagvadorj}}\email{l.munkhjargal@wigner.hu}
 
-\affil*[1]{\orgdiv{Department of Informatics}, \orgname{Milton Friedman University}, \orgaddress{\street{Kelta~utca~2.}, \city{Budapest}, \postcode{1039}, \state{Budapest}, \country{Hungary}}}
+\affil[1]{\orgdiv{Department of Informatics}, \orgname{Milton Friedman University}, \orgaddress{\street{Kelta~utca~2.}, \city{Budapest}, \postcode{1039}, \state{Budapest}, \country{Hungary}}}
 
 \affil[2]{\orgdiv{Department of Space Physics and Space Technology}, \orgname{Wigner Research Centre for Physics}, \orgaddress{\street{Konkoly-Thehe Miklos ut 29-33.}, \city{Budapest}, \postcode{1121}, \state{Budapest}, \country{Budapest}}}
 
@@ -79,7 +79,7 @@ Our star produces energy by thermonuclear fusion in its core. The produced energ
 \subsubsection{Flares and coronal mass ejections}
 \label{sec:cme}
 
-Sometimes two solar flux tubes with opposite direction situated close to each other and gradually forms an ``X'' shape configuration (Fig.~\ref{fig:reconnection}). If these flux tubes are enough close to each other it becomes energetically better configuraton if half-half of the opposite tubes form a shorter bended structure (Fig.~\ref{fig:reconnection}). Its phenomena is called reconnection and bursts huge amount of energy. This region of the solar atmosphere reaches 15-20\,million\,K degree. (The temperature of the arbitrary defined solar surface is 6000\,K and the solar core where the termonuclear fusion produces the energy is only 16\,million\,K degree.) A bright flash in vissible light, X-ray and radio bursts are ejected. Charged particles are accelerated to high energy, these are the Solar Energetic Particles (SEPs). A jet is ejected to the solar surface and usually (but not always) a huge amount of hot plasma launched to the heliosphere. Its name is coronal mass ejection (CME) or solar storm (Fig.~\ref{fig:cme}). The ejected plasma node remains connected magnetically to the Sun during its travel in the Solar System (Fig.~\ref{fig:cme}, bottom). CMEs can also occur independently. A large CME could contain a billion tons of plasma that can be accelerated to several thousand km per seconds. Solar material flies through the interplanetary medium, impacting any planet (Fig.~\ref{fig:cmeearth}) or spacecraft in its path \cite{scherer05:_space_weath,stix04:_sun_introd}.
+Sometimes two solar flux tubes with opposite direction situated close to each other and gradually forms an ``X'' shape configuration (Fig.~\ref{fig:reconnection}). If these flux tubes are enough close to each other it becomes energetically better configuraton if half-half of the opposite tubes form a shorter bended structure (Fig.~\ref{fig:reconnection}). Its phenomena is called reconnection and bursts huge amount of energy. This region of the solar atmosphere reaches 15-20\,million\,K degree. (The temperature of the arbitrary defined solar surface is 6000\,K and the solar core where the termonuclear fusion produces the energy is only 16\,million\,K degree.) A bright flash in vissible light, X-ray and radio bursts are ejected. Charged particles are accelerated to high energy, these are the Solar Energetic Particles (SEPs). A jet is ejected to the solar surface and usually (but not always) a huge amount of hot plasma launched to the heliosphere. Its name is coronal mass ejection (CME) or solar storm (Fig.~\ref{fig:cme}). The ejected plasma node remains connected magnetically to the Sun during its travel in the Solar System (Fig.~\ref{fig:cme}, bottom). CMEs can also occur independently. A large CME could contain a billion tons of plasma that can be accelerated to several thousand km per seconds. Their size could be much larger than the diameter of the Sun. Therefore, solar material ejections fly through the interplanetary space, impacting any planet (Fig.~\ref{fig:cmeearth}) or spacecraft in its path \cite{scherer05:_space_weath,stix04:_sun_introd}.
 
 \subsubsection{The solar wind and solar wind streams}
 \label{sec:sw}
@@ -93,32 +93,54 @@ Our planet has a strong magnetic field that is tilted to the Ecliptic (the plane
 
 The solar wind enters the terrestrial magnetosphere and creates aurora and the radiation belts (Fig.~\ref{fig:aurora}, bottom left). The charger particles of the solar wind always enter the magnetosphere at the north and south magnetic poles of our planet. These regions are called cups (Fig.~\ref{fig:aurora}, top). These particles are trapped and rotate around the magnetic field; furthermore, the rotating high-energy particles also move along the magnetic field lines. When these particles approach a magnetic pole they bounce back. Therefore, the charged particles move between the magnetic poles. They also drift perpendicularly to this movement. If you add their location and speed you get a so-called ring current above the magnetic equator. The region of these charged particles is called radiation belts and Van Allen belts \cite{scherer05:_space_weath}. The ring current influences the magnetosphere of the Earth. The charged particles hit and excite the molecules and atoms of the atmosphere. These excited atoms eject visible (green) light (Fig.~\ref{fig:aurora}, bottom left). This light is called aurora \cite{scherer05:_space_weath}. The aurora activity is permanent under the aurora oval (Fig.~\ref{fig:aurora}, bottom right). The intensity of the aurora is proportional to the bandwidth of the radio communication through the ionosphere (Kjellmar~Oksavik, personal~communication).
 
-On the boundary of Earth's upper, partially ionized, therefore conductive atmosphere (the ionosphere) and the lower magnetosphere, huge current systems are indicated \cite{juusola14:_statis_gumic_mhd}. These currents and the high-energy particles ejected by solar flares or accelerated CME shocks interact with the ionosphere and might change its transparency and reflectivity (Fig.~\ref{fig:sweffects}). Therefore, solar activity influences GNSS navigation, satellite, and HF radio telecommunication systems\cite{scherer05:_space_weath}. Both observation and simulation of the variations of the terrestrial magnetic field in this region of our planet are challenging \cite{facsko16:_one_earth}. However, using ground-based magnetometers it is quite easy to record and monitor magnetic disturbances. Based on the measurements of geomagnetic observatories located at high and lower altitudes, you could determine whether a CME or another phenomenon disturbed and caused strong magnetic variations in the magnetosphere \cite{scherer05:_space_weath}. Based on these results the auroral activity could be predicted and currents induced by the rapid variations of the magnetic field could be calculated. These currents are called geomagnetically induced currents (GICs) and their magnitude depends on the conductivity of the surface materials \cite{scherer05:_space_weath}. However, the rapidly variable magnetic field also generates currents in all long conductive objects; such as gas pipelines, electric transmission lines, train overhead wires, submarine internet cables, and transformers \cite{scherer05:_space_weath}. Therefore, solar activity might cause damage in this type of critical infrastructure (Fig.~\ref{fig:sweffects}).
+On the boundary of Earth's upper, partially ionized, therefore conductive atmosphere (the ionosphere) and the lower magnetosphere, huge current systems are indicated \cite{juusola14:_statis_gumic_mhd}. These currents and the high-energy particles ejected by solar flares or accelerated CME shocks interact with the ionosphere and might change its transparency and reflectivity (Fig.~\ref{fig:sweffects}). Therefore, solar activity influences GNSS navigation, satellite, and HF radio telecommunication systems\cite{scherer05:_space_weath}. Both observation and simulation of the variations of the terrestrial magnetic field in this region of our planet are challenging \cite{facsko16:_one_earth}. However, using ground-based magnetometers it is quite easy to record and monitor magnetic disturbances. Based on the measurements of geomagnetic observatories located at high and lower altitudes, you could determine whether a CME or another phenomenon disturbed and caused strong magnetic variations in the magnetosphere \cite{scherer05:_space_weath}. Based on these results the auroral activity could be predicted and currents induced by the rapid variations of the magnetic field could be calculated. These currents are called geomagnetically induced currents (GICs) and their magnitude depends on the conductivity of the surface materials \cite{scherer05:_space_weath}. However, the rapidly variable magnetic field also generates currents in all long conductive objects; such as gas pipelines, electric transmission lines, train overhead wires, submarine internet cables, and transformers \cite{scherer05:_space_weath}. Therefore, solar activity might cause damage to this type of critical infrastructure (Fig.~\ref{fig:sweffects}).
 
 \section{Space Weather effects on critical infrastructure}
 \label{sec:sweci}
 
-The space weather phenomena described in Section~\ref{sec:swintro} might have serious effects on the critical infrastructure defined in Section~\ref{sec:def}. The sources of the distubances (Fig.~\ref{fig:sweffects}, white ellipses) are the radiation outside of the Solar System (so-called cosmic rays), the SEPs (Section~\ref{sec:cme}), the radiation of solar flares (Section~\ref{sec:cme}), the solar flare radio bursts (Section~\ref{sec:cme}), the CMEs (Section~\ref{sec:cme}), and energetic particles from the radiation belts (Section~\ref{sec:magn}). These phenomena effect the ionosphere (Section~\ref{sec:magn}) and induces currents in the objects on Earth's surface (Fig.~\ref{fig:sweffects}, red rectangles). 
+The space weather phenomena described in Section~\ref{sec:swintro} might have serious effects on the critical infrastructure defined in Section~\ref{sec:def}. The sources of the disturbances (Fig.~\ref{fig:sweffects}, white ellipses) are the radiation outside of the Solar System (so-called cosmic rays), the SEPs (Section~\ref{sec:cme}), the radiation of solar flares (Section~\ref{sec:cme}), the solar flare radio bursts (Section~\ref{sec:cme}), the CMEs (Section~\ref{sec:cme}), and energetic particles from the radiation belts (Section~\ref{sec:magn}). These phenomena affect the ionosphere (Section~\ref{sec:magn}) and induce currents in the objects on Earth's surface (Fig.~\ref{fig:sweffects}, red rectangles). 
 
-The ionosphere bounces back the high frequency (HF) waves. Without this bounding ability the HF radio broadcast and communications would not be possible on Earth. This capability could be modified and even destroyed by space weather phenomena (Section~\ref{sec:magn}). However, the radio communication is also possible through this layer (Section~\ref{sec:magn}). Therefore, the satellite communication and location determination using GNSS position system are possible. The transparency of the ionosphere could be decreased by the space weather phenomena. Hence, the satellite communication becomes problematic. The disturbed ionosphere could deviate the direction of the GNSS signals too. The name of this effect is scintilation and might cause errors in the navigation systems. Finally, the reception of radio waves could be disturbed (Fig.~\ref{fig:sweffects}, red rectangles).
+\subsection{Space Weather effects on ionosphere and long conductors}
+\label{sec:swgeneral}
+
+The ionosphere bounces back the high-frequency (HF) waves. Without this bounding ability, the HF radio broadcast and communications would not be possible on Earth. This capability could be modified and even destroyed by space weather phenomena (Section~\ref{sec:magn}). However, radio communication is also possible through this layer (Section~\ref{sec:magn}). Therefore, satellite communication and location determination using the GNSS position system are possible. The transparency of the ionosphere could be decreased by the space weather phenomena. Hence, satellite communication becomes problematic. Aurora is a beautiful tourist attraction and an important indicator of solar activity (Fig.~\ref{fig:sweffects}, red rectangles). Furthermore, the intensity of the aurora is proportional to the bandwidth of the radio communication through the ionosphere (Section~\ref{sec:magn}). The observation of the aurora is easy using optical full--sky cameras. The disturbed ionosphere could deviate from the direction of the GNSS signals too. The name of this effect is scintillation which might cause errors in the navigation systems. Finally, the reception of radio waves could be disturbed (Fig.~\ref{fig:sweffects}, red rectangles).
 
 The rapidly variable terrestrial magnetic field induces geoelectric fields and currents on Earth's surface (Fig.~\ref{fig:sweffects}, red rectangles). Furthermore, it creates geomagnetically induced currents in power systems, submarine cables, gas pipelines, and train overhead wires (Fig.~\ref{fig:sweffects}, red rectangles). This is a dangerous effect. This phenomenon could block or destroy communication and energy transfer; furthermore, it is unwelcome for gas transfer. These systems could be protected if we know the magnitude of the effects or switch them off if we could forecast the phenomena. 
 
-Aurora is a beautiful tourist attraction and an important indicator of solar activity (Fig.~\ref{fig:sweffects}, red rectangles). Furthermore, the intensity of the aurora is proportional to the bandwidth of the radio communication through the ionosphere (Section~\ref{sec:magn}). The observation of the aurora is easy using optical full--sky cameras.
+\subsection{Catastrophic Space Weather effects}
+\label{sec:swcata}
 
-Table.~\ref{tab:agencies}
+The Carrington Event was the most intense observed geomagnetic storm. Its maximum peaked from September 1 to 2, 1859. The geomagnetic storm was the result of a CME from the Sun hitting the magnetosphere of our planet \cite{tsurutani03:_septem}. The CME associated with a very bright solar flare on September 1, 1859, traveled 17.6 hours to the Earth \cite{odenwald08:_bracin}.  The event caused strong aurora reported globally \cite{kimball60:_study_auror}. The aurora was visible from the poles to low latitude areas such as south-central Mexico, Queensland, Cuba, Hawaii, Japan, and China, and even very close to the equator in Columbia \cite{hayakawa18:_low_auror_extrem_space_weath_event,gonzalez-esparza18:_obser_low_latit_red_auror,green06:_durat,hayakawa16:_east_asian_carrin,moreno16:_colom}. Because of the geomagnetically induced current from the rapidly changing terrestrial magnetic field, telegraph systems in Europe and North America failed, in some cases giving their operators electrocutes \cite{societal08:_sever_space_weath_event}. Some telegraph stations sparked and even fired \cite{odenwald02:_cycle}. Some operators could continue to send and receive messages after disconnecting their power supplies \cite{carlowicz02:_storm_sun}.
 
-Various nowcast and prediction systems: ESA, NASA, NOAA, CIRES, UK MET Office, PECASUS, Auroras Now!
+Such strong flares and CME ejection (or solar storms) occur quite rarely on our star. However, we assure you that it will happen again once. Nowadays, its impact will be catastrophic for our critical infrastructure. The gestational and GNSS satellites will be offline or damaged permanently. Therefore, communication and navigation will impossible for a while. The transformer stations will be damaged and all computer systems, all elevators, all air conditioning, and all-electric equipment will be useless. The train, tram, and underground traffic will stop. The electric transfer pipeline will be useless. The gas pipelines must be stopped because of security reasons. Human civilization will step back to the 19th century for months. The effects of such a solar storm (or CME) look similar to a global thermonuclear bombardment using charges with improved microwave radiation capabilities. The researchers at Lloyd's of London and Atmospheric and Environmental Research (AER) in the US estimated the cost of a Carrington event size CME hitting the Earth. The US alone from US\$600 billion to \$2.6 trillion, which was 3.6 to 15.5 percent of annual GDP in 2013 \cite{london13:_solar_storm_risk_north_americ_elect_grid}.  Therefore, the authorities must be prepared to recognize such a global catastrophic event using the national resources because the event will be global therefore, you will not be able to ask for help and nobody could help because the situation will be similar all over the world. 
+
+
+\subsection{Space Weather prediction centres}
+\label{sec:swpred}
+
+Sometimes the space weather effects have catastrofic influence on critical infrastructure. For example, the July 2012 solar storm observed by STEREO, was a CME of comparable magnitude to the one of causing the Carrington Event. However, smaller effects could be also highly disturbing because our civilization is highly sophisticated and the globalisation connected the far sides of the world. Therefore, various nowcast and prediction centres exist on Earth (Table~\ref{tab:agencies}). The task of the prediction seems to be clear. However, it is also important to know the recent, current conditions of the terrestrial cosmic environment. This dedicated task uses the same methods and detectors like the forecast systems. Hence, we call this monitoring activity nowcast. The most famous related organization the National Aeronautics and Space Adminstration (NASA) Goddard Space Flight Center (GSFC) Space Weather Laboratory (\url{https://science.gsfc.nasa.gov/heliophysics/spaceweather/}) located in Greenbelt, Maryland, USA. In GSFC staff develops forecsst methods and does general space science research too. The NASA launched and operated the A\dots C\dots E\dots (ACE) and the D\dots (DSCOVR) solar wind monitoring satellites \cite{,}. In the USA not only the NASA maintaines space weather prediction centre. The Space Weather Prediction Center National Oceanic and Atmospheric Administration (NOAA, \url{https://www.swpc.noaa.gov/}) is located in Boulder, Colorado. The C\dots (CIRES) and the University of Colorado also develop tools for space weather forecast. In the United Kingdom the UK MET Office (\url{https://www.metoffice.gov.uk/weather/specialist-forecasts/space-weather}) in Exeter, Devon provides space weather forecasts. The UK Met Office (as well as most of other organizations) uses US spacecraft (ACE and DSCOVR) to get solar wind data. One of the most important to maping tool of the heliosphere a model of the magnetized material of the solar wind (so--called magnetohydrodynamic (MHD) simulation), the enlil \cite{}, was also developed in the USA. Recenlty a similar model was developed at the KU Leuven, therefore Europe could be independent from the USA in this approach \cite{}. China also established its own forecast organisation in Beijing, State Key Laboratory of Space Weather  (SKSW, \url{http://english.nssc.cas.cn/l/dss/SKSW/}). In Brasil, the Instituto Nacional de Pesquisas Espaciais, Estudo e Monitoramento Brasileiro do Clima Espacial (INPE/EMBRACE; \url{https://www2.inpe.br/climaespacial/portal/en/}) provides forecasts. The INPE developes and builds the Galileo Space Solar Telescope (GSST) to burst its solar and space weather activity forecast capabilies. The South African National Space Agency (SANSA, \url{https://spaceweather.sansa.org.za/products-and-services/forecasts-and-predictions}) has its space weather monitoring and forecect center in Hermanus, Western Cape. Its budget is quite low (Juha-Pekka Luntama, personal communication), however the rapidly develing space industry of the country need up-to-data predictions. An older nowcast centre is the Auroras Now! (\url{https://aurorasnow.fmi.fi/}) developed and maintained by the Finnish Meteorological Institute (FMI) in Helsinki, Finland. Naturaly, the European Space Agency (ESA) has the Space Safety Programme and its Space Weather Service Network (\url{https://swe.ssa.esa.int}). The headquoter of the programme located in Darmstadt, Germany but its operation centre situated in Brussels. Various European and other countries founded the European Consortium for Aviation Space weather User Services (PECASUS, \url{https://www.pecasus.eu/}). The PECASUS aims to improve the security of aviation.  
+
+\subsection{Hungarian Space Weather capabilies}
+\label{sec:hunswcap}
+
+Based on the long list above, it seems not only great powers have capability and sources to establish such a service. Therefore, it would be wise to establish the Hungarian National Space Weather Prediction Centre. Hungary has the necessary knowledge (Table~\ref{tab:hunexperties}). In the Wigner Research Centre for Physics at the Department of Space Physics and Space Technology (\url{https://space.wigner.hu}) the main research fields are the heliosphere, comets, planetary magnetospheres, dusty plasmas and MHD modelling. In the Centre for Energy Research, at the Space Dosimetry Group (\url{https://www.spacedosimetry.com}) the engineers have long experience to build dosimeteres (Pile, \cite{}), Langmiur Probes (plasma density and temperature instrument) building and recenly they started developing magnetopmeters. The Institute of Earth Physics and Space Science (\url{https://www.epss.hu}) provides ionosonde, GIC and geoelectric field observations; furthermore pocesses a huge database of solar spots observations (the heritage of the former Solar Observatory of Debrecen). They also have experts of the terrestrial bow shock and ground based magnetometers. In the E{\"o}tv{\"o}s Lor{\'a}nd University, the Space Research Group (\url{https://sas2.elte.hu}) has experience in building electrostatic wave instruments and cantsats (?) (SMOKE) \cite{} and experts of the plasmasphere and the radiation belts. On the same corridor of the same university in the Department of Astronomy University (\url{https://astro.elte.hu}) the latest solar physcist of Hungary works. Finally, in the Technical University of Budapest, Faculty of Electric Engineering, the \dots Group developes space probes batteries (\url{https://www.bme.hu}). This group build the MASAT, the first Hungarian nano spacecraft. This list of capabilies and experties is not perfect becasuse there is some overlap between groups. It means that some researchers and engineers work in various groups in same time. 
+
+Acccording to the list above and Table~\ref{tab:hunexperties} the Hungarian space scientists possesses the knowledges from Earth's surfsce to the Heliosphere. Some of them have already participated in the work of the ESA's Space Safety Programme (Section~\ref{sec:swpred}, Table~\ref{tab:agencies}). Therefore, founding a national space forecast centre based on political will and funding only. 
 
 \section{Summary}
 \label{sec:sum}
 
-The Sun dominates its neighborhood $\rightarrow$ The heliosphere is the region dominated by the Sun. The solar wind comes from the solar corona. It interacts with the objects in the heliosphere. The energy produced by fusion flows outward and creates magnetic activity. The magnetic field creates solar spots, protuberances, filaments, and flares. The magnetic reconnections produce an incredible amount of energy. In this flash, the flare ejects particles into interplanetary space and the solar atmosphere. The flash could reach 20 MK and launch a coronal mass ejection (CME). The CMEs are material ejections to the interplanetary space. Their size could be much larger than the diameter of the Sun. If the CMEs reach the Earth they could create magnetic disturbances, aurora, and geomagnetically induced currents in the pipelines. They may ruin the communication equipment and electronic devices in the orbit of the Earth. These events cut short-wave communication by changing the conductivity of the ionosphere however they can disturb satellite communication and navigation systems.
+% SW effectes
 
-The aurora is the consequence of the phenomena above. The aurora activity is permanent under the aurora oval. The intensity of the aurora is proportional to the bandwidth of the radio communication through the ionosphere. These events can be predicted and the critical infrastructure can be prepared. The satellite systems can be switched off
-before the solar storm arrives.
+% Action plane
 
-The space weather is the events described above and their prediction. It has a direct application. The USA, China, Brazil, South Africa, Sweden, the UK, and the ESA have space weather forecast centres.
+% National prediction centre
+
+bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla bla-bla-bla
+
+
+
+
 
 \backmatter
 
@@ -145,34 +167,60 @@ This work was partially financed by the National Research, Development, and Inno
 Name & Shortcut & URL & Location \\                    
 \hline
 \hline 
-NASA Goddard Space Flight Center Space Weather Laboratory & na. & \url{https://science.gsfc.nasa.gov/heliophysics/spaceweather/} & Greenbelt, MD, USA \\
+NASA Goddard Space Flight Center Space Weather Laboratory & NASA GSFC & \url{https://science.gsfc.nasa.gov/heliophysics/spaceweather/} & Greenbelt, MD, USA \\
 \hline
-Space Weather Prediction Center National Oceanic and Atmospheric Administration & NOAA & \url{https://www.swpc.noaa.gov/} & Boulder, CO, USA\\
+Space Weather Prediction Center National Oceanic and Atmospheric Administration & NOAA SWPC & \url{https://www.swpc.noaa.gov/} & Boulder, CO, USA\\
 \hline
 State Key Laboratory of Space Weather & SKSW & \url{http://english.nssc.cas.cn/l/dss/SKSW/} & Beijing, China\\
 \hline
 UK MET Office & na. & \url{https://www.metoffice.gov.uk/weather/specialist-forecasts/space-weather} & Exeter, Devon, UK\\
 \hline
-  South African National Space Agency & SANSA & \url{https://spaceweather.sansa.org.za/products-and-services/forecasts-and-predictions} & Hermanus, Western Cape, South Africa \\
+South African National Space Agency & SANSA & \url{https://spaceweather.sansa.org.za/products-and-services/forecasts-and-predictions} & Hermanus, Western Cape, South Africa \\
 \hline
 Instituto Nacional de Pesquisas Espaciais, Estudo e Monitoramento Brasileiro do Clima Espacial & INPE, EMBRACE & \url{https://www2.inpe.br/climaespacial/portal/en/} & \\  
 \hline  
-Auroras Now! & na. & \url{https://aurorasnow.fmi.fi/} & Helsinki, Finland\\
+Auroras Now! & FMI & \url{https://aurorasnow.fmi.fi/} & Helsinki, Finland\\
 \hline 
 ESA Space Safety Programme Space Weather Service Network & ESA SSA SWE & \url{https://swe.ssa.esa.int} & Darmstadt, Germany\\
 \hline
-European Consortium for Aviation Space weather User Services & PECASUS & \url{https://pecasus.eu/} & na.\\ \\
+European Consortium for Aviation Space weather User Services & PECASUS & \url{https://www.pecasus.eu/} & Helsinki, Finland \\ \\
 \end{tabular}
-\caption[Forecast organisations. ]{Space weather prediction centres from US to China and from South Africa to Finland.}
+\caption[Forecast organisations. ]{Space weather prediction centres all over the world: from US to China and from South Africa to Finland.}
 \label{tab:agencies}
 \end{table}
+
+\pagebreak
+
+\begin{table}[h]
+\centering
+\begin{tabular}[h]{p{3cm}p{0.75cm}p{2cm}p{2cm}l}
+Name & Shortcut & Expecmrties & URL & Location \\
+\hline
+\hline
+Wigner Research Centre for Physics, Department of Space Physics and Space Technology & Wigner FK & heliosphere, planetary magnetospheres & \url{https://space.wigner.hu} & Budapest \\
+\hline
+Centre for Energy Research, Space Dosimetry Group & EK & space dosimetry, magnetometers & \url{https://www.spacedosimetry.com} & Budapest \\
+\hline
+Institute of Earth Physics and Space Science & EPSS & ionosphere, bow shock, GIC & \url{https://www.epss.hu} & Sopron \\
+\hline
+E{\"o}tv{\"o}s Lor{\'a}nd University, Faculty of Sciences, Department of Astronomy & ELTE & solar physics & \url{https://astro.elte.hu} & Budapest \\
+\hline
+E{\"o}tv{\"o}s Lor{\'a}nd University, Faculty of Sciences, Space Research Group & ELTE & plasmasphere, radiation belts & \url{https://sas2.elte.hu} & Budapest \\
+\hline
+  Technical University of Budapest, Faculty of Electrical Engineering, \dots Group & \dots & instruments, batteries & \url{https://www.bme.hu} & Budapest \\ \\
+\end{tabular}
+\caption[Hungarian SW experties]{The Space Weather related capabilites and experties of the Hungarian research institutes and universities.}
+\label{tab:hunexperties}
+\end{table}
+
+
 
 
 % -------------------------------------------------------------------------------------------------------------
 
 \pagebreak
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.51\textwidth]{facsko_iccecip2022-f01a.eps}
 \includegraphics[width=0.38\textwidth]{facsko_iccecip2022-f01b.eps}
@@ -181,33 +229,33 @@ European Consortium for Aviation Space weather User Services & PECASUS & \url{ht
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{facsko_iccecip2022-f02.eps}
 \caption{The sunspots are the prove of the magnetic activity of the Sun. The magnetic field lines intersect the photosphere and cool down a region. The colder regions look darker on the bright disc. (Credit: Encyclopedia Britannica, \url{https://cdn.britannica.com/12/96912-050-D5DB526D/group-region-Sunspot-Swedish-Solar-Telescope-image.jpg})}\label{fig:sunspot}
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{facsko_iccecip2022-f03.eps}
 \caption{A draft of magnetic reconnection and a solar flare. (Credit: Gordon Holman and NASA, \url{https://www.researchgate.net/profile/Jose-Campos-Rozo/publication/318404921/figure/fig11/AS:631675696451597@1527614630141/2-An-illustrated-model-of-magnetic-reconnection-and-solar-flare-diagram-Image-Credit_W640.jpg})}\label{fig:reconnection}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{facsko_iccecip2022-f04a.eps}
 \includegraphics[width=0.9\textwidth]{facsko_iccecip2022-f04b.eps}
 \caption{(Top left and right) A coronal mass ejection on February 27, 2000, taken by SOlar and Heliospheric Observatory (SOHO) Large Angle and Spectrometric Coronagraph Experiment (LASCO) C2 and C3. A CME blasts into space a billion tons of particles traveling millions of miles an hour \cite{brueckner95:_large_angle_spect_coron_lasco,domingo95:_soho}. (Bottom) Solar Dynamic Observatory (SDO) image of the Earth to scale with the filament eruption on August 31, 2012 \cite{pesnell12:_solar_dynam_obser_sdo}. (Credit: SOHO ESA \& NASA, \url{https://www.nasa.gov/sites/default/files/thumbnails/image/faq4.jpg}; NASA Goddard Space Flight Center, \url{https://svs.gsfc.nasa.gov/vis/a010000/a011000/a011095/earth\_scale.jpg})}\label{fig:cme}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{facsko_iccecip2022-f05.eps}
 \caption{The CMEs could reach our planet. The Earth's magnetic field, displayed in blue, protects our planet from the harmful radiation of our star. CMEs cause the colorful auroras around the poles as they interact with Earth's magnetic shield and can disrupt GPS and communication satellites. (Credit: NASA Goddard Space Flight Center, \url{https://res.cloudinary.com/dtpgi0zck/image/upload/s--eqSnFkH6--/c_fit,h_580,w_860/v1/EducationHub/photos/solar-wind.jpg})}\label{fig:cmeearth}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.525\textwidth]{facsko_iccecip2022-f06a.eps}
 \includegraphics[width=0.37\textwidth]{facsko_iccecip2022-f06b.eps}
@@ -217,7 +265,7 @@ European Consortium for Aviation Space weather User Services & PECASUS & \url{ht
 
 
 
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.935\textwidth]{facsko_iccecip2022-f07a.eps}
 \includegraphics[width=0.375\textwidth]{facsko_iccecip2022-f07b.eps}
@@ -227,13 +275,10 @@ European Consortium for Aviation Space weather User Services & PECASUS & \url{ht
 
 % Lecserélni ezt a képet egy nagyobb felbontásúra és bekarikázni a CME-ket is fehérrel.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=0.95\textwidth]{facsko_iccecip2022-f08.eps}
 \caption{(White ellipses) Space weather is guided by the radiation from outside the Solar System (cosmic rays), solar energetic particles, solar flare radiation (for example X--rays), radiation from the Earth's radiation belts, and the coronal mass ejections. (Red rectangles) These disturbances cause navigation errors, enhanced ionospheric currents and disturbances, high-frequency radio communication disturbances, GNSS location problems, radio reception disturbances, aurora, and, geomagnetically induced currents in current systems, gas pipelines, and train overhead wires. (Red crosses) Those space weather effects are not considered in this paper. (Credit: ESA, \url{https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/01/space_weather_effects/17231521-7-eng-GB/Space_weather_effects_pillars.jpg})} \label{fig:sweffects}
 \end{figure}
-
-
-
 
 \end{document}
